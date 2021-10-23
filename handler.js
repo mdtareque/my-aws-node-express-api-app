@@ -13,9 +13,11 @@ app.get("/hello", (req, res, next) => {
     message: "Hello from path!",
   });
 });
-app.get("/mtk", (req, res, next) => {
+
+app.get("/mtk2", (req, res, next) => {
   return res.status(200).json({
     message: "Hello from mtk!",
+    message2: "Hello from mtk2!",
   });
 });
 
