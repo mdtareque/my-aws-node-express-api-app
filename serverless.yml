@@ -4,6 +4,9 @@ service: my-aws-node-express-api-app
 
 frameworkVersion: '2'
 
+plugins:
+  - serverless-offline
+
 provider:
   name: aws
   runtime: nodejs12.x
